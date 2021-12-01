@@ -1,0 +1,7 @@
+form div label {
+    width: 40% !important;
+}
+
+form input {
+    width: 60%;
+}

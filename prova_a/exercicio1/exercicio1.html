@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1 | Prova Regimental</title>
+    <link rel="stylesheet" href="./../../style.css">
+</head>
+
+<body>
+    <main>
+        <nav>
+            <a href="./../../index.html">Menu</a>
+        </nav>
+        <section>
+            <form name="f_cad">
+                <div>
+                    <label for="porhora">Salário por hora: </label>
+                    <input type="text" id="porhora" name="porhora" autofocus>
+                </div>
+                <div>
+                    <label for="horastrab">Qtd. de horas trabalhadas: </label>
+                    <input type="text" id="horastrab" name="horastrab">
+                </div>
+                <div>
+                    <label for="qtdfilhos">Qtd. de filhos: </label>
+                    <input type="text" id="qtdfilhos" name="qtdfilhos">
+                </div>
+            </form>
+            <button type="button" onclick="calcula()">Calcular</button>
+            <div id="resposta"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+* {
+    margin          : 0;
+    padding         : 0;
+    box-sizing      : border-box;
+    font-family     : 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #1f1f20;
+}
+
+body {
+    height         : 100vh;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+
+nav {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+nav h1 {
+    color: #e4f1db;
+}
+
+nav div {
+    display    : flex;
+    align-items: center;
+    margin     : 10px 0;
+    color      : #dce0e6;
+}
+
+nav a {
+    text-decoration: none;
+    color          : #dce0e6;
+}
+
+nav a:hover {
+    color: #2b4c7e;
+}
+
+main {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+main nav {
+    margin-bottom: 10px;
+}
+
+section {
+    display         : flex;
+    flex-direction  : column;
+    width           : 100%;
+    max-width       : 450px;
+    min-width       : 450px;
+    margin          : auto;
+    background-color: #2b4c7e;
+    padding         : 20px;
+    border-radius   : 10px;
+}
+
+section button,
+section input[type=button] {
+    margin-top      : 10px;
+    width           : 100px;
+    border          : 0;
+    border-radius   : 5px;
+    padding         : 10px 0;
+    cursor          : pointer;
+    background-color: #606d80;
+    color           : #dce0e6;
+}
+
+section #resposta,
+section .resposta {
+    margin-top      : 10px;
+    background-color: #2b4c7e;
+    color           : #dce0e6;
+}
+
+section #resposta div,
+section .resposta div {
+    background-color: #2b4c7e;
+    margin-top      : 5px;
+}
+
+section #resposta div span,
+section .resposta div span {
+    background-color: #2b4c7e;
+    font-size       : 14px;
+}
+
+form {
+    display         : flex;
+    flex-direction  : column;
+    background-color: #2b4c7e;
+}
+
+form div {
+    display         : flex;
+    justify-content : flex-start;
+    background-color: #2b4c7e;
+    margin          : 5px 0;
+}
+
+form div label {
+    width           : 50%;
+    display         : flex;
+    align-items     : center;
+    color           : #dce0e6;
+    background-color: #2b4c7e;
+    font-size       : 14px;
+}
+
+form input {
+    width           : 50%;
+    border          : 1px solid #567ebb;
+    background-color: #2b4c7e;
+    padding         : 10px;
+    box-shadow      : none;
+    box-sizing      : border-box;
+    resize          : vertical;
+    outline         : 0;
+    border-radius   : 5px;
+    color           : #dce0e6;
+}
+
+.buttons {
+    background-color: #2b4c7e;
+}
+
+button:hover,
+input[type=button]:hover {
+    color           : #606d80;
+    background-color: #dce0e6;
+}
+
+.input-reposta {
+    display         : flex;
+    background-color: #2b4c7e;
+    margin-top      : 10px;
+}
+
+.input-reposta div {
+    display         : flex;
+    justify-content : flex-start;
+    background-color: #2b4c7e;
+    margin          : 5px 0;
+}
+
+.input-reposta label {
+    width           : 20%;
+    display         : flex;
+    align-items     : center;
+    color           : #dce0e6;
+    background-color: #2b4c7e;
+    font-size       : 14px;
+}
+
+.input-reposta input {
+    width           : 80%;
+    border          : 1px solid #567ebb;
+    background-color: #2b4c7e;
+    padding         : 10px;
+    box-shadow      : none;
+    box-sizing      : border-box;
+    resize          : vertical;
+    outline         : 0;
+    border-radius   : 5px;
+    color           : #dce0e6;
+}
+
+.radio input {
+    width: 40px;
+}
+
+.radio label {
+    width: 100% !important;
+    margin-left: 5px;
+}

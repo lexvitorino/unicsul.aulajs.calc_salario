@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2 | Prova Regimental</title>
+    <link rel="stylesheet" href="./../../style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <nav>
+            <a href="./../../index.html">Menu</a>
+        </nav>
+        <section>
+            <form id="f_cad" name="f_cad">
+                <div>
+                    <label for="idn">Idn: </label>
+                    <input type="text" id="idn" name="idn" autofocus>
+                </div>
+                <div>
+                    <label for="idm">Idm: </label>
+                    <input type="text" id="idm" name="idm">
+                </div>
+            </form>
+            <input id="bt" type="button" onclick="gravar()" value="OK">
+            <div id="txtres" class="resposta"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

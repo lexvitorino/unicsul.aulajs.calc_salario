@@ -1,0 +1,19 @@
+form div label {
+    width: 20% !important;
+}
+
+form input {
+    width: 80%;
+}
+
+form input#altura {
+    width: 40%;
+}
+
+#resposta textarea {
+    width           : 100%;
+    background-color: #2b4c7e;
+    color           : #dce0e6;
+    padding         : 10px;
+    height          : 150px;
+}

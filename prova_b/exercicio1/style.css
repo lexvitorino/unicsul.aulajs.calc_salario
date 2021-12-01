@@ -1,0 +1,11 @@
+form div label {
+    width: 20% !important;
+}
+
+form input {
+    width: 80%;
+}
+
+section button {
+    width: 140px;
+}
